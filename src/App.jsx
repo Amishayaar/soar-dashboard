@@ -1,6 +1,7 @@
 import './App.css'
 import Header from "./app/Header"
 import Sidebar from './app/Sidebar'
+import { MainContent } from './components/main-content/MainContent'
 
 function App() {
 
@@ -10,7 +11,7 @@ function App() {
         <Sidebar />
         <div className='flex-1 h-screen' >
           <Header />
-          {/* <MainContent /> */}
+          <MainContent />
         </div>
       </div>
 

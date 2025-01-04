@@ -4,7 +4,7 @@ import { Input } from "../ui/input"
 
 export const Navbar = () => {
     return (
-        <nav className="w-full  h-100px py-3">
+        <nav className="w-full  h-100px py-3 shadow-sm">
             <div className="px-4 flex justify-between items-center">
                 <a href="#" className="text-x font-semibold">Overview</a>
 

@@ -3,7 +3,7 @@ import { Home, CreditCard, BarChart, Settings, User, LogOut, ArrowRightLeft, Han
 
 export const SidebarComponent = () => {
   return (
-    <div className="h-screen w-[250px]  flex flex-col shadow-xl drop-shadow-xl">
+    <div className="h-screen w-[200px]  flex flex-col shadow-xl drop-shadow-xl">
       <div className="flex items-center justify-center py-6">
         <span className="text-2xl font-bold">Soar Task</span>
       </div>
